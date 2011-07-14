@@ -7,7 +7,7 @@
 //
 
 #import "CategoriesTests.h"
-
+#import "NSArray+Reverse.h"
 
 @implementation CategoriesTests
 
@@ -25,9 +25,15 @@
     [super tearDown];
 }
 
-- (void)testExample
+-(void)testArrayReverse 
 {
-    STFail(@"Unit tests are not implemented yet in CategoriesTests");
+    
+    NSArray *testArray = [NSArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",nil];
+    
+    testArray = [testArray reverseArray];
+    
+    STAssertEqualObjects(@"10", [testArray objectAtIndex:0],@"Array did not reverse");
+    
 }
 
 @end
