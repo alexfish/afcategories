@@ -25,6 +25,7 @@
 		FAE6EA4E13CF8C650096DB22 /* CategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE6EA4D13CF8C650096DB22 /* CategoriesTests.m */; };
 		FAE6EA5A13CF8D230096DB22 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */; };
 		FAE6EA5B13CF8D230096DB22 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */; };
+		FAE6EA6D13CF9F890096DB22 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = FAE6EA6C13CF9F890096DB22 /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		FAE6EA4D13CF8C650096DB22 /* CategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoriesTests.m; sourceTree = "<group>"; };
 		FAE6EA5813CF8D230096DB22 /* NSArray+Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Reverse.h"; sourceTree = "<group>"; };
 		FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Reverse.m"; sourceTree = "<group>"; };
+		FAE6EA6C13CF9F890096DB22 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				FAE6EA2213CF8C640096DB22 /* InfoPlist.strings */,
 				FAE6EA2513CF8C640096DB22 /* Categories-Prefix.pch */,
 				FAE6EA2613CF8C640096DB22 /* main.m */,
+				FAE6EA6C13CF9F890096DB22 /* README.markdown */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				FAE6EA2413CF8C640096DB22 /* InfoPlist.strings in Resources */,
 				FAE6EA3113CF8C640096DB22 /* MainWindow_iPhone.xib in Resources */,
 				FAE6EA3813CF8C650096DB22 /* MainWindow_iPad.xib in Resources */,
+				FAE6EA6D13CF9F890096DB22 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
