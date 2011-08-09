@@ -9,6 +9,7 @@
 #import "CategoriesTests.h"
 #import "NSArray+Reverse.h"
 #import "NSDictionary+HasKey.h"
+#import "NSString+IsNotEqualToString.h"
 
 @implementation CategoriesTests
 
@@ -44,6 +45,21 @@
     
     STAssertFalse([dictionary hasKey:@"Key2"], @"Dictionary has key failed to return correct result");
     STAssertTrue([dictionary hasKey:@"Key1"], @"Dictionary has key failed to return correct result");
+    
+    NSMutableDictionary *mutableDict = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Test Object",@"Key1", nil];
+    
+    STAssertFalse([mutableDict hasKey:@"Key2"], @"Dictionary has key failed to return correct result");
+    STAssertTrue([mutableDict hasKey:@"Key1"], @"Dictionary has key failed to return correct result");
+    
+}
+
+-(void)testStringIsNotEqualToString
+{
+    
+    NSString *string = @"Quack";
+    
+    STAssertTrue([string isNotEqualToString:@"Bloop"], @"String is not equal to is not correctly returning");
+    STAssertFalse([string isNotEqualToString:string], @"String is not equal to is not correctly returning");
     
 }
 

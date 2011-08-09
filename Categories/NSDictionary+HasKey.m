@@ -12,9 +12,7 @@
 
 -(BOOL)hasKey:(NSString *)key {
     
-    NSDictionary *dictionary = [NSDictionary dictionaryWithDictionary:self];
-    
-    return [dictionary objectForKey:key] != nil ? YES : NO;
+    return [self objectForKey:key] != nil ? YES : NO;
     
 }
 

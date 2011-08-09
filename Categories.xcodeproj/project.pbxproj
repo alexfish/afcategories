@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FAE65DCE13F1C892002F3178 /* NSDictionary+HasKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */; };
+		FAE65DD113F1CBC8002F3178 /* NSString+IsNotEqualToString.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE65DD013F1CBC8002F3178 /* NSString+IsNotEqualToString.m */; };
 		FAE6EA1A13CF8C640096DB22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1913CF8C640096DB22 /* UIKit.framework */; };
 		FAE6EA1C13CF8C640096DB22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1B13CF8C640096DB22 /* Foundation.framework */; };
 		FAE6EA1E13CF8C640096DB22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1D13CF8C640096DB22 /* CoreGraphics.framework */; };
@@ -42,6 +43,8 @@
 /* Begin PBXFileReference section */
 		FAE65DCC13F1C892002F3178 /* NSDictionary+HasKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HasKey.h"; sourceTree = "<group>"; };
 		FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HasKey.m"; sourceTree = "<group>"; };
+		FAE65DCF13F1CBC8002F3178 /* NSString+IsNotEqualToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsNotEqualToString.h"; sourceTree = "<group>"; };
+		FAE65DD013F1CBC8002F3178 /* NSString+IsNotEqualToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsNotEqualToString.m"; sourceTree = "<group>"; };
 		FAE6EA1513CF8C640096DB22 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6EA1913CF8C640096DB22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAE6EA1B13CF8C640096DB22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAE65DD213F1CC9B002F3178 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6EA5813CF8D230096DB22 /* NSArray+Reverse.h */,
+				FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		FAE65DD313F1CCA9002F3178 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				FAE65DCC13F1C892002F3178 /* NSDictionary+HasKey.h */,
+				FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */,
+			);
+			name = NSDictionary;
+			sourceTree = "<group>";
+		};
+		FAE65DD413F1CCB5002F3178 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				FAE65DCF13F1CBC8002F3178 /* NSString+IsNotEqualToString.h */,
+				FAE65DD013F1CBC8002F3178 /* NSString+IsNotEqualToString.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
 		FAE6EA0A13CF8C640096DB22 = {
 			isa = PBXGroup;
 			children = (
@@ -190,10 +220,9 @@
 		FAE6EA5713CF8D0D0096DB22 /* Custom Categories */ = {
 			isa = PBXGroup;
 			children = (
-				FAE6EA5813CF8D230096DB22 /* NSArray+Reverse.h */,
-				FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */,
-				FAE65DCC13F1C892002F3178 /* NSDictionary+HasKey.h */,
-				FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */,
+				FAE65DD413F1CCB5002F3178 /* NSString */,
+				FAE65DD313F1CCA9002F3178 /* NSDictionary */,
+				FAE65DD213F1CC9B002F3178 /* NSArray */,
 			);
 			name = "Custom Categories";
 			sourceTree = "<group>";
@@ -313,6 +342,7 @@
 				FAE6EA3513CF8C640096DB22 /* CategoriesAppDelegate_iPad.m in Sources */,
 				FAE6EA5A13CF8D230096DB22 /* NSArray+Reverse.m in Sources */,
 				FAE65DCE13F1C892002F3178 /* NSDictionary+HasKey.m in Sources */,
+				FAE65DD113F1CBC8002F3178 /* NSString+IsNotEqualToString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
