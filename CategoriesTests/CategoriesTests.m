@@ -8,6 +8,7 @@
 
 #import "CategoriesTests.h"
 #import "NSArray+Reverse.h"
+#import "NSDictionary+HasKey.h"
 
 @implementation CategoriesTests
 
@@ -33,6 +34,16 @@
     testArray = [testArray reverseArray];
     
     STAssertEqualObjects(@"10", [testArray objectAtIndex:0],@"Array did not reverse");
+    
+}
+
+-(void)testDictionaryHasKey
+{
+ 
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Test Object",@"Key1", nil];
+    
+    STAssertFalse([dictionary hasKey:@"Key2"], @"Dictionary has key failed to return correct result");
+    STAssertTrue([dictionary hasKey:@"Key1"], @"Dictionary has key failed to return correct result");
     
 }
 

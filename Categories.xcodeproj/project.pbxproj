@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAE65DCE13F1C892002F3178 /* NSDictionary+HasKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */; };
 		FAE6EA1A13CF8C640096DB22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1913CF8C640096DB22 /* UIKit.framework */; };
 		FAE6EA1C13CF8C640096DB22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1B13CF8C640096DB22 /* Foundation.framework */; };
 		FAE6EA1E13CF8C640096DB22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1D13CF8C640096DB22 /* CoreGraphics.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FAE65DCC13F1C892002F3178 /* NSDictionary+HasKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HasKey.h"; sourceTree = "<group>"; };
+		FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HasKey.m"; sourceTree = "<group>"; };
 		FAE6EA1513CF8C640096DB22 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6EA1913CF8C640096DB22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAE6EA1B13CF8C640096DB22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -189,6 +192,8 @@
 			children = (
 				FAE6EA5813CF8D230096DB22 /* NSArray+Reverse.h */,
 				FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */,
+				FAE65DCC13F1C892002F3178 /* NSDictionary+HasKey.h */,
+				FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */,
 			);
 			name = "Custom Categories";
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 				FAE6EA2E13CF8C640096DB22 /* CategoriesAppDelegate_iPhone.m in Sources */,
 				FAE6EA3513CF8C640096DB22 /* CategoriesAppDelegate_iPad.m in Sources */,
 				FAE6EA5A13CF8D230096DB22 /* NSArray+Reverse.m in Sources */,
+				FAE65DCE13F1C892002F3178 /* NSDictionary+HasKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,13 +393,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -490,6 +497,7 @@
 				FAE6EA5313CF8C650096DB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE6EA5413CF8C650096DB22 /* Build configuration list for PBXNativeTarget "CategoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				FAE6EA5613CF8C650096DB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
