@@ -10,6 +10,7 @@
 
 @interface NSArray (Reverse)
 -(NSArray *)reverseArray;
+-(BOOL)isEmpty;
 @end
 
 @interface NSMutableArray (Reverse)

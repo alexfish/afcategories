@@ -6,7 +6,7 @@
 //  Copyright 2011 Alex Fish. All rights reserved.
 //
 
-#import "NSArray+Reverse.h"
+#import "AFArray.h"
 
 @implementation NSArray (Reverse)
 
@@ -18,6 +18,10 @@
     
     return mutArray;
     
+}
+
+- (BOOL)isEmpty {
+    return [self count] == 0 ? YES : NO;  
 }
 
 @end

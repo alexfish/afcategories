@@ -7,9 +7,9 @@
 //
 
 #import "CategoriesTests.h"
-#import "NSArray+Reverse.h"
-#import "NSDictionary+HasKey.h"
-#import "NSString+IsNotEqualToString.h"
+#import "AFArray.h"
+#import "AFDictionary.h"
+#import "AFString.h"
 
 @implementation CategoriesTests
 
@@ -38,6 +38,13 @@
     
 }
 
+-(void)testArrayIsEmpty {
+    
+    NSArray *testArray = [NSArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",nil];
+    STAssertFalse([testArray isEmpty],@"Array is empty is returning the wrong result");
+    
+}
+
 -(void)testDictionaryHasKey
 {
  
@@ -51,6 +58,13 @@
     STAssertFalse([mutableDict hasKey:@"Key2"], @"Dictionary has key failed to return correct result");
     STAssertTrue([mutableDict hasKey:@"Key1"], @"Dictionary has key failed to return correct result");
     
+}
+
+-(void)testDictionaryIsEmtpy 
+{
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObject:@"test" forKey:@"test"];
+    
+    STAssertFalse([dictionary isEmpty], @"Dictionary is empty returning incorrect result");
 }
 
 -(void)testStringIsNotEqualToString

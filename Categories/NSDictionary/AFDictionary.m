@@ -6,7 +6,7 @@
 //  Copyright 2011 Alex Fish. All rights reserved.
 //
 
-#import "NSDictionary+HasKey.h"
+#import "AFDictionary.h"
 
 @implementation NSDictionary (NSDictionary_HasKey)
 
@@ -14,6 +14,10 @@
     
     return [self objectForKey:key] != nil ? YES : NO;
     
+}
+
+- (BOOL)isEmpty {
+    return [self count] == 0 ? YES : NO;  
 }
 
 @end

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAE65DCE13F1C892002F3178 /* NSDictionary+HasKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */; };
-		FAE65DD113F1CBC8002F3178 /* NSString+IsNotEqualToString.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE65DD013F1CBC8002F3178 /* NSString+IsNotEqualToString.m */; };
+		FAA2107D13F6BDC0003B4AD4 /* AFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2107C13F6BDC0003B4AD4 /* AFArray.m */; };
+		FAA2108313F6BDE2003B4AD4 /* AFDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2108213F6BDE2003B4AD4 /* AFDictionary.m */; };
+		FAA2108613F6BDEA003B4AD4 /* AFString.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2108513F6BDEA003B4AD4 /* AFString.m */; };
 		FAE6EA1A13CF8C640096DB22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1913CF8C640096DB22 /* UIKit.framework */; };
 		FAE6EA1C13CF8C640096DB22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1B13CF8C640096DB22 /* Foundation.framework */; };
 		FAE6EA1E13CF8C640096DB22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE6EA1D13CF8C640096DB22 /* CoreGraphics.framework */; };
@@ -25,8 +26,6 @@
 		FAE6EA4913CF8C650096DB22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE6EA4713CF8C650096DB22 /* InfoPlist.strings */; };
 		FAE6EA4C13CF8C650096DB22 /* CategoriesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FAE6EA4B13CF8C650096DB22 /* CategoriesTests.h */; };
 		FAE6EA4E13CF8C650096DB22 /* CategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE6EA4D13CF8C650096DB22 /* CategoriesTests.m */; };
-		FAE6EA5A13CF8D230096DB22 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */; };
-		FAE6EA5B13CF8D230096DB22 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */; };
 		FAE6EA6F13CFA0640096DB22 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = FAE6EA6E13CFA0640096DB22 /* README.markdown */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FAE65DCC13F1C892002F3178 /* NSDictionary+HasKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HasKey.h"; sourceTree = "<group>"; };
-		FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HasKey.m"; sourceTree = "<group>"; };
-		FAE65DCF13F1CBC8002F3178 /* NSString+IsNotEqualToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsNotEqualToString.h"; sourceTree = "<group>"; };
-		FAE65DD013F1CBC8002F3178 /* NSString+IsNotEqualToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsNotEqualToString.m"; sourceTree = "<group>"; };
+		FAA2107B13F6BDC0003B4AD4 /* AFArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFArray.h; path = NSArray/AFArray.h; sourceTree = "<group>"; };
+		FAA2107C13F6BDC0003B4AD4 /* AFArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFArray.m; path = NSArray/AFArray.m; sourceTree = "<group>"; };
+		FAA2108113F6BDE2003B4AD4 /* AFDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFDictionary.h; path = NSDictionary/AFDictionary.h; sourceTree = "<group>"; };
+		FAA2108213F6BDE2003B4AD4 /* AFDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFDictionary.m; path = NSDictionary/AFDictionary.m; sourceTree = "<group>"; };
+		FAA2108413F6BDEA003B4AD4 /* AFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFString.h; path = NSString/AFString.h; sourceTree = "<group>"; };
+		FAA2108513F6BDEA003B4AD4 /* AFString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFString.m; path = NSString/AFString.m; sourceTree = "<group>"; };
 		FAE6EA1513CF8C640096DB22 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6EA1913CF8C640096DB22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAE6EA1B13CF8C640096DB22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,8 +68,6 @@
 		FAE6EA4A13CF8C650096DB22 /* CategoriesTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CategoriesTests-Prefix.pch"; sourceTree = "<group>"; };
 		FAE6EA4B13CF8C650096DB22 /* CategoriesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoriesTests.h; sourceTree = "<group>"; };
 		FAE6EA4D13CF8C650096DB22 /* CategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoriesTests.m; sourceTree = "<group>"; };
-		FAE6EA5813CF8D230096DB22 /* NSArray+Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Reverse.h"; sourceTree = "<group>"; };
-		FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Reverse.m"; sourceTree = "<group>"; };
 		FAE6EA6E13CFA0640096DB22 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.markdown; path = ../README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,29 +95,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FAE65DD213F1CC9B002F3178 /* NSArray */ = {
+		FAA2107E13F6BDC5003B4AD4 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
-				FAE6EA5813CF8D230096DB22 /* NSArray+Reverse.h */,
-				FAE6EA5913CF8D230096DB22 /* NSArray+Reverse.m */,
+				FAA2107B13F6BDC0003B4AD4 /* AFArray.h */,
+				FAA2107C13F6BDC0003B4AD4 /* AFArray.m */,
 			);
 			name = NSArray;
 			sourceTree = "<group>";
 		};
-		FAE65DD313F1CCA9002F3178 /* NSDictionary */ = {
+		FAA2107F13F6BDCF003B4AD4 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				FAE65DCC13F1C892002F3178 /* NSDictionary+HasKey.h */,
-				FAE65DCD13F1C892002F3178 /* NSDictionary+HasKey.m */,
+				FAA2108113F6BDE2003B4AD4 /* AFDictionary.h */,
+				FAA2108213F6BDE2003B4AD4 /* AFDictionary.m */,
 			);
 			name = NSDictionary;
 			sourceTree = "<group>";
 		};
-		FAE65DD413F1CCB5002F3178 /* NSString */ = {
+		FAA2108013F6BDD5003B4AD4 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				FAE65DCF13F1CBC8002F3178 /* NSString+IsNotEqualToString.h */,
-				FAE65DD013F1CBC8002F3178 /* NSString+IsNotEqualToString.m */,
+				FAA2108413F6BDEA003B4AD4 /* AFString.h */,
+				FAA2108513F6BDEA003B4AD4 /* AFString.m */,
 			);
 			name = NSString;
 			sourceTree = "<group>";
@@ -220,9 +219,9 @@
 		FAE6EA5713CF8D0D0096DB22 /* Custom Categories */ = {
 			isa = PBXGroup;
 			children = (
-				FAE65DD413F1CCB5002F3178 /* NSString */,
-				FAE65DD313F1CCA9002F3178 /* NSDictionary */,
-				FAE65DD213F1CC9B002F3178 /* NSArray */,
+				FAA2108013F6BDD5003B4AD4 /* NSString */,
+				FAA2107F13F6BDCF003B4AD4 /* NSDictionary */,
+				FAA2107E13F6BDC5003B4AD4 /* NSArray */,
 			);
 			name = "Custom Categories";
 			sourceTree = "<group>";
@@ -340,9 +339,9 @@
 				FAE6EA2A13CF8C640096DB22 /* CategoriesAppDelegate.m in Sources */,
 				FAE6EA2E13CF8C640096DB22 /* CategoriesAppDelegate_iPhone.m in Sources */,
 				FAE6EA3513CF8C640096DB22 /* CategoriesAppDelegate_iPad.m in Sources */,
-				FAE6EA5A13CF8D230096DB22 /* NSArray+Reverse.m in Sources */,
-				FAE65DCE13F1C892002F3178 /* NSDictionary+HasKey.m in Sources */,
-				FAE65DD113F1CBC8002F3178 /* NSString+IsNotEqualToString.m in Sources */,
+				FAA2107D13F6BDC0003B4AD4 /* AFArray.m in Sources */,
+				FAA2108313F6BDE2003B4AD4 /* AFDictionary.m in Sources */,
+				FAA2108613F6BDEA003B4AD4 /* AFString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +350,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE6EA4E13CF8C650096DB22 /* CategoriesTests.m in Sources */,
-				FAE6EA5B13CF8D230096DB22 /* NSArray+Reverse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

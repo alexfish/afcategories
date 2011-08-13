@@ -6,7 +6,7 @@
 //  Copyright 2011 Alex Fish. All rights reserved.
 //
 
-#import "NSString+IsNotEqualToString.h"
+#import "AFString.h"
 
 @implementation NSString (NSString_IsNotEqualToString)
 
