@@ -11,7 +11,9 @@ Available
 ---------
 
 * NSArray reverse
+* NSArray isEmpty
 * NSMutableArray reverse
 * NSDictionary haskey
+* NSDictionary isEmpty
 
 Alex Fish - alexefish.com
