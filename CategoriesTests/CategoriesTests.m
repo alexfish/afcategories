@@ -45,6 +45,11 @@
     
 }
 
+-(void)testArrayFirstObject {
+    NSArray *testArray = [NSArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",nil];
+    STAssertEqualObjects(@"1", [testArray firstObject],@"Array did not reverse");
+}
+
 -(void)testDictionaryHasKey
 {
  

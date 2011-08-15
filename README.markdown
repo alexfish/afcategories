@@ -1,18 +1,23 @@
 
-Custom Categories
-=================
+#Custom Categories
 
-About
------
+##About
 
 A collection of custom categories for use in projects
 
-Available
----------
+##Available
 
+### NSArray
 * NSArray reverse
 * NSArray isEmpty
+* NSArray firstObject
+
+### NSMutableArray
 * NSMutableArray reverse
+* NSMutableArray isEmpty
+* NSMutableArray firstObject
+
+### NSDictionary
 * NSDictionary haskey
 * NSDictionary isEmpty
 

@@ -24,6 +24,10 @@
     return [self count] == 0 ? YES : NO;  
 }
 
+- (id)firstObject {
+    return [self objectAtIndex:0];
+}
+
 @end
 
 @implementation NSMutableArray (Reverse)
