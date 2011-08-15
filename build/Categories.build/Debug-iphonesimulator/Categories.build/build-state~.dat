@@ -1,326 +1,0 @@
-TCategories
-v3
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Info.plist Categories/Categories-Info.plist
-cProcessPCH /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch.gch Categories/Categories-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/main.o /Users/Alex/iPhone/Categories/Categories/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate.o /Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPhone.o /Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPad.o /Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cLd /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories normal i386
-cGenerateDSYMFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app.dSYM /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories
-cCopyStringsFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj/InfoPlist.strings Categories/en.lproj/InfoPlist.strings
-cCompileXIB /Users/Alex/iPhone/Categories/Categories/iPhone/en.lproj/MainWindow_iPhone.xib
-cCompileXIB /Users/Alex/iPhone/Categories/Categories/iPad/en.lproj/MainWindow_iPad.xib
-cTouch /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-c000000004DA80D160000000000000110
-t1302859030
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004D93DF6900000000002999B0
-t1301536617
-s2726320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D93DFEA000000000029DA70
-t1301536746
-s2742896
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D93DFDD0000000000001466
-t1301536733
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004D93ECBE0000000000000AA1
-t1301540030
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004D93ED1B0000000000766870
-t1301540123
-s7759984
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
-c000000004D4F7A2B0000000000001B19
-t1297054251
-s6937
-
-N/Users/Alex/iPhone/Categories/Categories/Categories-Prefix.pch
-c000000004E1F54E40000000000000146
-t1310676196
-s326
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.h
-c000000004E1F54E40000000000000139
-t1310676196
-s313
-i<UIKit/UIKit.h>
-
-N/Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.m
-c000000004E1F54E400000000000008BE
-t1310676196
-s2238
-i"CategoriesAppDelegate.h"
-
-N/Users/Alex/iPhone/Categories/Categories/en.lproj/InfoPlist.strings
-c000000004E1F54E4000000000000002D
-t1310676196
-s45
-
-N/Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.h
-c000000004E1F54E40000000000000124
-t1310676196
-s292
-i<UIKit/UIKit.h>
-i"CategoriesAppDelegate.h"
-
-N/Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.m
-c000000004E1F54E4000000000000011C
-t1310676196
-s284
-i"CategoriesAppDelegate_iPad.h"
-
-N/Users/Alex/iPhone/Categories/Categories/iPad/en.lproj/MainWindow_iPad.xib
-c000000004E1F54E50000000000003F20
-t1310676197
-s16160
-
-N/Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.h
-c000000004E1F54E40000000000000128
-t1310676196
-s296
-i<UIKit/UIKit.h>
-i"CategoriesAppDelegate.h"
-
-N/Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.m
-c000000004E1F54E40000000000000122
-t1310676196
-s290
-i"CategoriesAppDelegate_iPhone.h"
-
-N/Users/Alex/iPhone/Categories/Categories/iPhone/en.lproj/MainWindow_iPhone.xib
-c000000004E1F54E40000000000004112
-t1310676196
-s16658
-
-N/Users/Alex/iPhone/Categories/Categories/main.m
-c000000004E1F54E40000000000000165
-t1310676196
-s357
-i<UIKit/UIKit.h>
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/Categories.LinkFileList
-c000000004E1F556D000000000000021B
-t1310676333
-s539
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate.o
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPad.o
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPhone.o
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app.dSYM
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Info.plist
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/PkgInfo
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj/MainWindow_iPad.nib
-t2
-s0
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj/MainWindow_iPhone.nib
-t2
-s0
-
-N/var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch.gch
-t2
-s0
-
-NCategories/Categories-Info.plist
-c000000004E1F54E4000000000000060E
-t1310676196
-s1550
-
-CBuild AST from /Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.m
-r0
-
-CBuild AST from /Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.m
-r0
-
-CBuild AST from /Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.m
-r0
-
-CBuild AST from /Users/Alex/iPhone/Categories/Categories/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies38f539ed8ccfb341^36954ded8ccfb341^---0#1#0#--18"Check dependencies
-
-CCompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate.o /Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s332369134.029951
-e332369134.207230
-r1
-xCompileC
-xbuild/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate.o
-x/Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.m8bc107ee8ccfb341^a2f035ee8ccfb341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.m0000000000000000^2119"CompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate.o Categories/CategoriesAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/Alex/iPhone/Categories    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-generated-files.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-own-target-headers.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-all-target-headers.hmap -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-project-headers.hmap -I/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources/i386 -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -include /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch -c /Users/Alex/iPhone/Categories/Categories/CategoriesAppDelegate.m -o /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate.o
-
-CCompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPad.o /Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s332369134.208702
-e332369134.325823
-r1
-xCompileC
-xbuild/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPad.o
-x/Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.me38c35ee8ccfb341^157453ee8ccfb341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.m0000000000000000^2149"CompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPad.o Categories/iPad/CategoriesAppDelegate_iPad.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/Alex/iPhone/Categories    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-generated-files.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-own-target-headers.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-all-target-headers.hmap -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-project-headers.hmap -I/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources/i386 -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -include /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch -c /Users/Alex/iPhone/Categories/Categories/iPad/CategoriesAppDelegate_iPad.m -o /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPad.o
-
-CCompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPhone.o /Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s332369134.135942
-e332369134.345831
-r1
-xCompileC
-xbuild/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPhone.o
-x/Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.mb0e822ee8ccfb341^db8758ee8ccfb341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.m0000000000000000^2161"CompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPhone.o Categories/iPhone/CategoriesAppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/Alex/iPhone/Categories    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-generated-files.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-own-target-headers.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-all-target-headers.hmap -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-project-headers.hmap -I/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources/i386 -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -include /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch -c /Users/Alex/iPhone/Categories/Categories/iPhone/CategoriesAppDelegate_iPhone.m -o /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/CategoriesAppDelegate_iPhone.o
-
-CCompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/main.o /Users/Alex/iPhone/Categories/Categories/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s332369134.029310
-e332369134.133540
-r1
-xCompileC
-xbuild/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/main.o
-x/Users/Alex/iPhone/Categories/Categories/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/Alex/iPhone/Categories/Categories/main.m889f07ee8ccfb341^d2a622ee8ccfb341^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/Alex/iPhone/Categories/Categories/main.m0000000000000000^2051"CompileC build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/main.o Categories/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/Alex/iPhone/Categories    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-generated-files.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-own-target-headers.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-all-target-headers.hmap -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-project-headers.hmap -I/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources/i386 -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -include /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch -c /Users/Alex/iPhone/Categories/Categories/main.m -o /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/main.o
-
-CCompileXIB /Users/Alex/iPhone/Categories/Categories/iPad/en.lproj/MainWindow_iPad.xib
-s332369134.422420
-e332369135.454111
-r1
-xCompileXIB
-x/Users/Alex/iPhone/Categories/Categories/iPad/en.lproj/MainWindow_iPad.xib
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/Alex/iPhone/Categories/Categories/iPad/en.lproj/MainWindow_iPad.xib54366cee8ccfb341^9e4074ef8ccfb341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Alex/iPhone/Categories/Categories/iPad/en.lproj/MainWindow_iPad.xib0000000000000000^655"CompileXIB Categories/iPad/en.lproj/MainWindow_iPad.xib    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj/MainWindow_iPad.nib /Users/Alex/iPhone/Categories/Categories/iPad/en.lproj/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-
-CCompileXIB /Users/Alex/iPhone/Categories/Categories/iPhone/en.lproj/MainWindow_iPhone.xib
-s332369134.417053
-e332369135.444508
-r1
-xCompileXIB
-x/Users/Alex/iPhone/Categories/Categories/iPhone/en.lproj/MainWindow_iPhone.xib
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/Alex/iPhone/Categories/Categories/iPhone/en.lproj/MainWindow_iPhone.xib02d66aee8ccfb341^58cb71ef8ccfb341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Alex/iPhone/Categories/Categories/iPhone/en.lproj/MainWindow_iPhone.xib0000000000000000^665"CompileXIB Categories/iPhone/en.lproj/MainWindow_iPhone.xib    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj/MainWindow_iPhone.nib /Users/Alex/iPhone/Categories/Categories/iPhone/en.lproj/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-
-CCopyStringsFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj/InfoPlist.strings Categories/en.lproj/InfoPlist.strings
-s332369134.416879
-e332369134.421261
-r1
-xCopyStringsFile
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj/InfoPlist.strings
-xCategories/en.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy Categories/en.lproj/InfoPlist.stringsbcca6aee8ccfb341^c3d76bee8ccfb341^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Alex/iPhone/Categories/Categories/en.lproj/InfoPlist.strings0000000000000000^505"CopyStringsFile build/Debug-iphonesimulator/Categories.app/en.lproj/InfoPlist.strings Categories/en.lproj/InfoPlist.strings    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/en.lproj -- Categories/en.lproj/InfoPlist.strings
-
-CGenerateDSYMFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app.dSYM /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories
-s332369134.392760
-e332369134.413796
-r1
-xGenerateDSYMFile
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app.dSYM
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generating /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app.dSYMd89f64ee8ccfb341^24ee69ee8ccfb341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app.dSYM0000204d2205f041^484"GenerateDSYMFile build/Debug-iphonesimulator/Categories.app.dSYM build/Debug-iphonesimulator/Categories.app/Categories    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories -o /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app.dSYM
-
-CLd /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories normal i386
-s332369134.347097
-e332369134.391135
-r1
-xLd
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories
-xnormal
-xi386
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Link /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categoriesc3f158ee8ccfb341^9e2964ee8ccfb341^---0#0#0#--944"Ld build/Debug-iphonesimulator/Categories.app/Categories normal i386    cd /Users/Alex/iPhone/Categories    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -filelist /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Objects-normal/i386/Categories.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories
-
-CProcessInfoPlistFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Info.plist Categories/Categories-Info.plist
-s332369133.308281
-e332369133.312131
-r1
-xProcessInfoPlistFile
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Info.plist
-xCategories/Categories-Info.plist
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process Categories/Categories-Info.plist9f034fed8ccfb341^9be84fed8ccfb341^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/Alex/iPhone/Categories/Categories/Categories-Info.plist0000000000000000^580"ProcessInfoPlistFile build/Debug-iphonesimulator/Categories.app/Info.plist Categories/Categories-Info.plist    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Categories/Categories-Info.plist -genpkginfo /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Info.plist
-
-CProcessPCH /Users/Alex/Library/Developer/Xcode/DerivedData/Categories-dqvezvytzindaweqqfbnageavzck/Index/PrecompiledHeaders/Categories-Prefix-grxzkaayroqabacozjwzyiehmiwm_ast/Categories-Prefix.pch.pth Categories/Categories-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch.gch Categories/Categories-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
-s332369133.315521
-e332369134.027473
-r1
-xProcessPCH
-x/var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch.gch
-xCategories/Categories-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Categories/Categories-Prefix.pch71e550ed8ccfb341^310907ee8ccfb341^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/Alex/iPhone/Categories/Categories/Categories-Prefix.pch0000000000000000^2048"ProcessPCH /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch.gch Categories/Categories-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/Alex/iPhone/Categories    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-generated-files.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-own-target-headers.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-all-target-headers.hmap -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/Categories-project-headers.hmap -I/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources/i386 -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/Categories.build/DerivedSources -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -c /Users/Alex/iPhone/Categories/Categories/Categories-Prefix.pch -o /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Categories-Prefix-eaijhrlczxsiavaynpnrvolhctta/Categories-Prefix.pch.gch
-
-CTouch /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app
-s332369135.457508
-e332369135.466155
-r1
-xTouch
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.appba3175ef8ccfb341^c95677ef8ccfb341^---0#0#0#--312"Touch build/Debug-iphonesimulator/Categories.app    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app
-

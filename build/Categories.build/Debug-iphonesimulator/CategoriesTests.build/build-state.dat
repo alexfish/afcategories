@@ -1,253 +1,0 @@
-TCategoriesTests
-v3
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/Info.plist CategoriesTests/CategoriesTests-Info.plist
-cProcessPCH /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CategoriesTests-Prefix-fhseauttnulwhjdvscbynlrpaidp/CategoriesTests-Prefix.pch.gch CategoriesTests/CategoriesTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.o /Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/NSArray+Reverse.o /Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cLd /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests normal i386
-cGenerateDSYMFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest.dSYM /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests
-cCopyStringsFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/en.lproj/InfoPlist.strings CategoriesTests/en.lproj/InfoPlist.strings
-cCpResource CategoriesTests/CategoriesTests.h build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests.h
-cPhaseScriptExecution "Run Script" /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Script-FAE6EA3C13CF8C650096DB22.sh
-cTouch /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-c000000004DA80D160000000000000110
-t1302859030
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
-c000000004D93EC6C00000000000008A5
-t1301539948
-s2213
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004D93DF6900000000002999B0
-t1301536617
-s2726320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D93DFEA000000000029DA70
-t1301536746
-s2742896
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D93DFDD0000000000001466
-t1301536733
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004D93ECBE0000000000000AA1
-t1301540030
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004D93ED1B0000000000766870
-t1301540123
-s7759984
-
-N/Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.h
-c000000004E1F5E790000000000000129
-t1310678649
-s297
-i<Foundation/Foundation.h>
-
-N/Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.m
-c000000004E1F61450000000000000267
-t1310679365
-s615
-i"NSArray+Reverse.h"
-
-N/Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests-Prefix.pch
-c000000004E1F54E500000000000000A1
-t1310676197
-s161
-i<UIKit/UIKit.h>
-
-N/Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.h
-c000000004E1F5E930000000000000100
-t1310678675
-s256
-i<SenTestingKit/SenTestingKit.h>
-i"NSArray+Reverse.h"
-
-N/Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.m
-c000000004E1F616900000000000002A5
-t1310679401
-s677
-i"CategoriesTests.h"
-
-N/Users/Alex/iPhone/Categories/CategoriesTests/en.lproj/InfoPlist.strings
-c000000004E1F54E5000000000000002D
-t1310676197
-s45
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.LinkFileList
-c000000004E1F5DAD000000000000010E
-t1310678445
-s270
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.o
-t1310679408
-s9424
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/NSArray+Reverse.o
-t1310679408
-s4496
-
-N/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Script-FAE6EA3C13CF8C650096DB22.sh
-c000000004E1F5DAD0000000000000062
-t1310678445
-s98
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest
-t1310679408
-s204
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest.dSYM
-t1310679408
-s102
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests
-t1310679408
-s15140
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests.h
-t1310678681
-s256
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/Info.plist
-t1310678445
-s520
-
-N/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/en.lproj/InfoPlist.strings
-t1310678446
-s42
-
-N/var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CategoriesTests-Prefix-fhseauttnulwhjdvscbynlrpaidp/CategoriesTests-Prefix.pch.gch
-t1310678445
-s12283312
-
-NCategoriesTests/CategoriesTests-Info.plist
-c000000004E1F54E500000000000002B5
-t1310676197
-s693
-
-CBuild AST from /Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.m
-r0
-
-CBuild AST from /Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.m
-r0
-
-CCheck dependencies
-r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6ac14ffe98cfb341^2d7c51fe98cfb341^---0#1#0#--18"Check dependencies
-
-CCompileC build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.o /Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s332372208.464022
-e332372208.675787
-r1
-xCompileC
-xbuild/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.o
-x/Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.m4fe776f098cfb341^a513adf098cfb341^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.m0000000000000000^2405"CompileC build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.o CategoriesTests/CategoriesTests.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/Alex/iPhone/Categories    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-generated-files.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-own-target-headers.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-all-target-headers.hmap -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-project-headers.hmap -I/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources/i386 -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -include /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CategoriesTests-Prefix-fhseauttnulwhjdvscbynlrpaidp/CategoriesTests-Prefix.pch -c /Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.m -o /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.o
-
-CCompileC build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/NSArray+Reverse.o /Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s332372208.465060
-e332372208.642695
-r1
-xCompileC
-xbuild/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/NSArray+Reverse.o
-x/Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.mdd2777f098cfb341^378aa4f098cfb341^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.m0000000000000000^2395"CompileC build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/NSArray+Reverse.o Categories/NSArray+Reverse.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/Alex/iPhone/Categories    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-generated-files.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-own-target-headers.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-all-target-headers.hmap -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-project-headers.hmap -I/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources/i386 -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -include /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CategoriesTests-Prefix-fhseauttnulwhjdvscbynlrpaidp/CategoriesTests-Prefix.pch -c /Users/Alex/iPhone/Categories/Categories/NSArray+Reverse.m -o /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/NSArray+Reverse.o
-
-CCopyStringsFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/en.lproj/InfoPlist.strings CategoriesTests/en.lproj/InfoPlist.strings
-s332371246.043216
-e332371246.047708
-r1
-xCopyStringsFile
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/en.lproj/InfoPlist.strings
-xCategoriesTests/en.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy CategoriesTests/en.lproj/InfoPlist.strings4e250b2e95cfb341^0e4e0c2e95cfb341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Alex/iPhone/Categories/CategoriesTests/en.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Debug-iphonesimulator/CategoriesTests.octest/en.lproj/InfoPlist.strings CategoriesTests/en.lproj/InfoPlist.strings    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/en.lproj -- CategoriesTests/en.lproj/InfoPlist.strings
-
-CCpResource CategoriesTests/CategoriesTests.h build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests.h
-s332371481.377625
-e332371481.380449
-r1
-xCpResource
-xCategoriesTests/CategoriesTests.h
-xbuild/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests.h
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests.hc2bf601996cfb341^9370611996cfb341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests.h0000000000000000^547"CpResource CategoriesTests/CategoriesTests.h build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests.h    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests.h /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest
-
-CGenerateDSYMFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest.dSYM /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests
-s332372208.765954
-e332372208.828057
-r1
-xGenerateDSYMFile
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest.dSYM
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Generating /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest.dSYM7826c4f098cfb341^7afbd3f098cfb341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest.dSYM/0000000000000000^526"GenerateDSYMFile build/Debug-iphonesimulator/CategoriesTests.octest.dSYM build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests -o /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest.dSYM
-
-CLd /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests normal i386
-s332372208.677432
-e332372208.764704
-r1
-xLd
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests
-xnormal
-xi386
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests048dadf098cfb341^6cd0c3f098cfb341^---0#0#0#--1342"Ld build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests normal i386    cd /Users/Alex/iPhone/Categories    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -bundle -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -filelist /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.LinkFileList -mmacosx-version-min=10.6 -bundle_loader /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories -framework SenTestingKit -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/CategoriesTests
-
-CPhaseScriptExecution "Run Script" /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Script-FAE6EA3C13CF8C650096DB22.sh
-s332372222.349338
-e332372222.373606
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Script-FAE6EA3C13CF8C650096DB22.sh
-o/Developer/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'7a8c5afe98cfb341^a9a35ffe98cfb341^-122"/Developer/Tools/RunUnitTests:68: note: RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.1(21%IDEActivityLogMessage2@81"RunUnitTests exited without running tests because TEST_AFTER_BUILD was set to NO.-332372222#0#122#-0#-23%DVTTextDocumentLocation3@45"file://localhost/Developer/Tools/RunUnitTests0000000000000000^67#18446744073709551615#67#18446744073709551615#18446744073709551615#0#30"Shell Script Invocation Notice--0#0#0#--18361"PhaseScriptExecution "Run Script" build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Script-FAE6EA3C13CF8C650096DB22.sh    cd /Users/Alex/iPhone/Categories    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Alex    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Alex/iPhone/Categories/build    setenv BUILD_ROOT /Users/Alex/iPhone/Categories/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator    setenv BUNDLE_LOADER /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories    setenv CACHE_ROOT /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH CategoriesTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH CategoriesTests.octest/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Categories.dst    setenv DWARF_DSYM_FILE_NAME CategoriesTests.octest.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH CategoriesTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH CategoriesTests.octest    setenv EXECUTABLE_NAME CategoriesTests    setenv EXECUTABLE_PATH CategoriesTests.octest/CategoriesTests    setenv FILE_LIST /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH CategoriesTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME CategoriesTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER CategoriesTests/CategoriesTests-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS DEBUG    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE CategoriesTests/CategoriesTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH CategoriesTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH CategoriesTests.octest/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Categories.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Alex    setenv INSTALL_ROOT /tmp/Categories.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH CategoriesTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal/i386/CategoriesTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH CategoriesTests.octest/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10K540    setenv MAC_OS_X_VERSION_ACTUAL 1068    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0608    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Objects-normal    setenv OBJROOT /Users/Alex/iPhone/Categories/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework SenTestingKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH CategoriesTests.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/PkgInfo    setenv PKGINFO_PATH CategoriesTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 8H7    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 40300    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH CategoriesTests.octest/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH CategoriesTests.octest/PrivateHeaders    setenv PRODUCT_NAME CategoriesTests    setenv PRODUCT_SETTINGS_PATH /Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT Categories    setenv PROJECT_DERIVED_FILE_DIR /Users/Alex/iPhone/Categories/build/Categories.build/DerivedSources    setenv PROJECT_DIR /Users/Alex/iPhone/Categories    setenv PROJECT_FILE_PATH /Users/Alex/iPhone/Categories/Categories.xcodeproj    setenv PROJECT_NAME Categories    setenv PROJECT_TEMP_DIR /Users/Alex/iPhone/Categories/build/Categories.build    setenv PUBLIC_HEADERS_FOLDER_PATH CategoriesTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH CategoriesTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk    setenv SDK_NAME iphonesimulator4.3    setenv SDK_PRODUCT_BUILD_VERSION 8H7    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH CategoriesTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH CategoriesTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/Alex/iPhone/Categories    setenv SRCROOT /Users/Alex/iPhone/Categories    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMBOL_REPOSITORY_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/SymbolRepositories    setenv SYMROOT /Users/Alex/iPhone/Categories/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME CategoriesTests    setenv TARGET_BUILD_DIR /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator    setenv TARGET_NAME CategoriesTests    setenv TARGET_TEMP_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build    setenv TEMP_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build    setenv TEMP_FILES_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build    setenv TEMP_FILE_DIR /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build    setenv TEMP_ROOT /Users/Alex/iPhone/Categories/build    setenv TEST_AFTER_BUILD NO    setenv TEST_HOST /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/Categories.app/Categories    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH CategoriesTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER Alex    setenv USER_APPS_DIR /Users/Alex/Applications    setenv USER_LIBRARY_DIR /Users/Alex/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH CategoriesTests.octest/version.plist    setenv VERSION_INFO_BUILDER Alex    setenv VERSION_INFO_FILE CategoriesTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:CategoriesTests  PROJECT:Categories-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME CategoriesTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4A2002a    setenv XCODE_VERSION_ACTUAL 0402    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/Script-FAE6EA3C13CF8C650096DB22.sh
-
-CProcessInfoPlistFile /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/Info.plist CategoriesTests/CategoriesTests-Info.plist
-s332371245.138278
-e332371245.143055
-r1
-xProcessInfoPlistFile
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/Info.plist
-xCategoriesTests/CategoriesTests-Info.plist
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process CategoriesTests/CategoriesTests-Info.plistbc78232d95cfb341^eca6242d95cfb341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests-Info.plist0000000000000000^523"ProcessInfoPlistFile build/Debug-iphonesimulator/CategoriesTests.octest/Info.plist CategoriesTests/CategoriesTests-Info.plist    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CategoriesTests/CategoriesTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest/Info.plist
-
-CProcessPCH /Users/Alex/Library/Developer/Xcode/DerivedData/Categories-dqvezvytzindaweqqfbnageavzck/Index/PrecompiledHeaders/CategoriesTests-Prefix-efjtjeeulehonmczljhgeztohxbn_ast/CategoriesTests-Prefix.pch.pth CategoriesTests/CategoriesTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CategoriesTests-Prefix-fhseauttnulwhjdvscbynlrpaidp/CategoriesTests-Prefix.pch.gch CategoriesTests/CategoriesTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
-s332371245.145673
-e332371245.807658
-r1
-xProcessPCH
-x/var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CategoriesTests-Prefix-fhseauttnulwhjdvscbynlrpaidp/CategoriesTests-Prefix.pch.gch
-xCategoriesTests/CategoriesTests-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile CategoriesTests/CategoriesTests-Prefix.pch2b69252d95cfb341^cec2ce2d95cfb341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests-Prefix.pch0000000000000000^2368"ProcessPCH /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CategoriesTests-Prefix-fhseauttnulwhjdvscbynlrpaidp/CategoriesTests-Prefix.pch.gch CategoriesTests/CategoriesTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/Alex/iPhone/Categories    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-generated-files.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-own-target-headers.hmap -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-all-target-headers.hmap -iquote /Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/CategoriesTests-project-headers.hmap -I/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/include -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources/i386 -I/Users/Alex/iPhone/Categories/build/Categories.build/Debug-iphonesimulator/CategoriesTests.build/DerivedSources -F/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks -c /Users/Alex/iPhone/Categories/CategoriesTests/CategoriesTests-Prefix.pch -o /var/folders/+3/+36aBeGjGw88956+n9iBQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CategoriesTests-Prefix-fhseauttnulwhjdvscbynlrpaidp/CategoriesTests-Prefix.pch.gch
-
-CTouch /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest
-s332372208.862509
-e332372208.878898
-r1
-xTouch
-x/Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Touch /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest66dcdcf098cfb341^c9ffe0f098cfb341^---0#0#0#--328"Touch build/Debug-iphonesimulator/CategoriesTests.octest    cd /Users/Alex/iPhone/Categories    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Alex/iPhone/Categories/build/Debug-iphonesimulator/CategoriesTests.octest
-
