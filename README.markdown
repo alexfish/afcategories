@@ -5,7 +5,7 @@
 
 A collection of custom categories for use in projects
 
-##Installiation
+##Installation
 
 Install the project as a git submodule by using the following command:
 
