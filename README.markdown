@@ -5,6 +5,14 @@
 
 A collection of custom categories for use in projects
 
+##Installiation
+
+Install the project as a git submodule by using the following command:
+
+    git submodule add git://github.com/alexefish/Categories.git AFCategories
+
+And then drag the files into your Xcode project.
+
 ##Available
 
 ### NSArray
