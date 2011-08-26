@@ -9,3 +9,16 @@ build/*
 # osx noise
 .DS_Store
 profile
+
+#Categories Specific
+CategoriesTests/
+CategoriesTests/xcodeproj
+iPad/
+iPhone/
+Categories-Info.plist
+Categories-Prefix.pch
+CategoriesAppDelegate.h
+CategoriesAppDelegate.m
+main.m
+en.lproj/
+.DS_Store

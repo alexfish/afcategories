@@ -10,9 +10,15 @@
 
 @implementation NSString (NSString_IsNotEqualToString)
 
--(BOOL)isNotEqualToString:(NSString *)string {
+- (BOOL)isNotEqualToString:(NSString *)string {
     
     return [self isEqualToString:string] ? NO : YES;
+    
+}
+
+- (BOOL)containsString:(NSString *)string {
+    
+    return [self rangeOfString:string].location == NSNotFound ? NO : YES;
     
 }
 

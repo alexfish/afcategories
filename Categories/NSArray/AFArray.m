@@ -21,11 +21,15 @@
 }
 
 - (BOOL)isEmpty {
-    return [self count] == 0 ? YES : NO;  
+    
+    return [self count] == 0 ? YES : NO; 
+    
 }
 
 - (id)firstObject {
+    
     return [self objectAtIndex:0];
+    
 }
 
 @end

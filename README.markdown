@@ -21,4 +21,8 @@ A collection of custom categories for use in projects
 * NSDictionary haskey
 * NSDictionary isEmpty
 
+### NSString
+* NSString isNotEqualToString
+* NSString containsString
+
 Alex Fish - alexefish.com

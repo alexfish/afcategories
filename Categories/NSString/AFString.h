@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (NSString_IsNotEqualToString)
--(BOOL)isNotEqualToString:(NSString *)string;
+
+- (BOOL)isNotEqualToString:(NSString *)string;
+
+- (BOOL)containsString:(NSString *)string;
+
 @end

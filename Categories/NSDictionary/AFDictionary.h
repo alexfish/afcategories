@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (NSDictionary_HasKey)
+
 - (BOOL)hasKey:(NSString *)key;
+
 - (BOOL)isEmpty;
+
 @end

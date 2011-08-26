@@ -9,11 +9,17 @@
 #import <Foundation/Foundation.h>
 
 @interface NSArray (Reverse)
+
 - (NSArray *)reverseArray;
+
 - (BOOL)isEmpty;
+
 - (id)firstObject;
+
 @end
 
 @interface NSMutableArray (Reverse)
+
 - (void)reverse;
+
 @end
