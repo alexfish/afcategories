@@ -8,7 +8,7 @@
 
 #import "AFString.h"
 
-@implementation NSString (NSString_IsNotEqualToString)
+@implementation NSString (AFString)
 
 - (BOOL)isNotEqualToString:(NSString *)string {
     

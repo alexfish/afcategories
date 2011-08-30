@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA8AB8ED140D8ECD00568A64 /* AFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB8EC140D8ECD00568A64 /* AFNumber.m */; };
 		FAA2107D13F6BDC0003B4AD4 /* AFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2107C13F6BDC0003B4AD4 /* AFArray.m */; };
 		FAA2108313F6BDE2003B4AD4 /* AFDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2108213F6BDE2003B4AD4 /* AFDictionary.m */; };
 		FAA2108613F6BDEA003B4AD4 /* AFString.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2108513F6BDEA003B4AD4 /* AFString.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA8AB8EB140D8ECD00568A64 /* AFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNumber.h; path = NSNumber/AFNumber.h; sourceTree = "<group>"; };
+		FA8AB8EC140D8ECD00568A64 /* AFNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNumber.m; path = NSNumber/AFNumber.m; sourceTree = "<group>"; };
 		FAA2107B13F6BDC0003B4AD4 /* AFArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFArray.h; path = NSArray/AFArray.h; sourceTree = "<group>"; };
 		FAA2107C13F6BDC0003B4AD4 /* AFArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFArray.m; path = NSArray/AFArray.m; sourceTree = "<group>"; };
 		FAA2108113F6BDE2003B4AD4 /* AFDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFDictionary.h; path = NSDictionary/AFDictionary.h; sourceTree = "<group>"; };
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA8AB8EF140D8FE800568A64 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AB8EB140D8ECD00568A64 /* AFNumber.h */,
+				FA8AB8EC140D8ECD00568A64 /* AFNumber.m */,
+			);
+			name = NSNumber;
+			sourceTree = "<group>";
+		};
 		FAA2107E13F6BDC5003B4AD4 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +231,7 @@
 		FAE6EA5713CF8D0D0096DB22 /* Custom Categories */ = {
 			isa = PBXGroup;
 			children = (
+				FA8AB8EF140D8FE800568A64 /* NSNumber */,
 				FAA2108013F6BDD5003B4AD4 /* NSString */,
 				FAA2107F13F6BDCF003B4AD4 /* NSDictionary */,
 				FAA2107E13F6BDC5003B4AD4 /* NSArray */,
@@ -342,6 +355,7 @@
 				FAA2107D13F6BDC0003B4AD4 /* AFArray.m in Sources */,
 				FAA2108313F6BDE2003B4AD4 /* AFDictionary.m in Sources */,
 				FAA2108613F6BDEA003B4AD4 /* AFString.m in Sources */,
+				FA8AB8ED140D8ECD00568A64 /* AFNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

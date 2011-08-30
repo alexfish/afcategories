@@ -33,6 +33,13 @@ And then drag the files into your Xcode project.
 * NSString isNotEqualToString
 * NSString containsString
 
+### NSNumber
+* NSNumber floorNumber
+* NSNumber ceilNumber
+* NSNumber roundNumber
+* NSNumber isLessThanNumber
+* NSNumber isMoreThanNumber
+
 ##License
 
 Copyright (C) 2011 by Alex Fish

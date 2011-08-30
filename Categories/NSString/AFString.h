@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (NSString_IsNotEqualToString)
+@interface NSString (AFString)
 
 - (BOOL)isNotEqualToString:(NSString *)string;
 

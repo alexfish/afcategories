@@ -8,7 +8,7 @@
 
 #import "AFArray.h"
 
-@implementation NSArray (Reverse)
+@implementation NSArray (AFArray)
 
 -(NSArray *)reverseArray {
     
@@ -34,7 +34,7 @@
 
 @end
 
-@implementation NSMutableArray (Reverse)
+@implementation NSMutableArray (AFArray)
 
 -(void)reverse {
     

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (NSDictionary_HasKey)
+@interface NSDictionary (AFDictionary)
 
 - (BOOL)hasKey:(NSString *)key;
 

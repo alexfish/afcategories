@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Reverse)
+@interface NSArray (AFArray)
 
 - (NSArray *)reverseArray;
 
@@ -18,7 +18,7 @@
 
 @end
 
-@interface NSMutableArray (Reverse)
+@interface NSMutableArray (AFArray)
 
 - (void)reverse;
 

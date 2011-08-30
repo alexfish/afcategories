@@ -8,7 +8,7 @@
 
 #import "AFDictionary.h"
 
-@implementation NSDictionary (NSDictionary_HasKey)
+@implementation NSDictionary (AFDictionary)
 
 -(BOOL)hasKey:(NSString *)key {
     
