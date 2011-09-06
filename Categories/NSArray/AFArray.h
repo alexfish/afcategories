@@ -20,6 +20,6 @@
 
 @interface NSMutableArray (AFArray)
 
-- (void)reverse;
+- (NSMutableArray *)reverseArray;
 
 @end

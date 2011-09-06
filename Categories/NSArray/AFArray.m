@@ -10,11 +10,11 @@
 
 @implementation NSArray (AFArray)
 
--(NSArray *)reverseArray {
+- (NSArray *)reverseArray {
     
     NSMutableArray *mutArray = [NSMutableArray arrayWithArray:self];
     
-    [mutArray reverse];
+    mutArray = [mutArray reverseArray];
     
     return mutArray;
     
@@ -36,7 +36,7 @@
 
 @implementation NSMutableArray (AFArray)
 
--(void)reverse {
+- (NSMutableArray *)reverseArray {
     
     int i = 0;
     int j = [self count] - 1;
@@ -46,6 +46,8 @@
         i++;
         j--;
     }
+    
+    return self;
     
 }
 

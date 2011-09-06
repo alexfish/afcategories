@@ -18,12 +18,12 @@ And then drag the files into your Xcode project.
 ### NSArray
 * `- (id)firstObject`
 * `- (BOOL)isEmpty`
-* `- (void)reverseArray`
+* `- (NSArray *)reverseArray`
 
 ### NSMutableArray
 * `- (id)firstObject`
 * `- (BOOL)isEmpty`
-* `- (void)reverseArray`
+* `- (NSMutableArray *)reverseArray`
 
 ### NSDictionary
 * `- (BOOL)hasKey:(NSString *)key`
