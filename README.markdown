@@ -16,29 +16,30 @@ And then drag the files into your Xcode project.
 ##Available
 
 ### NSArray
-* NSArray reverse
-* NSArray isEmpty
-* NSArray firstObject
+* `- (BOOL)hasKey:(NSString *)key`
+* `- (BOOL)isEmpty`
+* `- (void)reverse`
 
 ### NSMutableArray
-* NSMutableArray reverse
-* NSMutableArray isEmpty
-* NSMutableArray firstObject
+* `- (BOOL)hasKey:(NSString *)key`
+* `- (BOOL)isEmpty`
+* `- (void)reverse`
 
 ### NSDictionary
-* NSDictionary haskey
-* NSDictionary isEmpty
+* `- (BOOL)hasKey:(NSString *)key`
+* `- (BOOL)isEmpty`
 
 ### NSString
-* NSString isNotEqualToString
-* NSString containsString
+* `- (BOOL)isNotEqualToString:(NSString *)string`
+* `- (BOOL)containsString:(NSString *)string`
 
 ### NSNumber
-* NSNumber floorNumber
-* NSNumber ceilNumber
-* NSNumber roundNumber
-* NSNumber isLessThanNumber
-* NSNumber isMoreThanNumber
+* `- (NSNumber *)floorNumber`
+* `- (NSNumber *)ceilNumber`
+* `- (NSNumber *)roundNumber`
+* `+ (NSNumber *)numberFromString:(NSString *)string`
+* `- (BOOL)isLessThanNumber:(NSNumber *)number`
+* `- (BOOL)isMoreThanNumber:(NSNumber *)number`
 
 ##License
 

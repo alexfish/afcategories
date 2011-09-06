@@ -40,4 +40,12 @@
     
 }
 
++ (NSNumber *)numberFromString:(NSString *)string {
+    
+    NSNumberFormatter *formatter = [[[NSNumberFormatter alloc] init] autorelease];
+    
+    return [formatter numberFromString:string];
+    
+}
+
 @end

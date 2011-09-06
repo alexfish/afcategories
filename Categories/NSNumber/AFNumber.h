@@ -16,6 +16,8 @@
 
 - (NSNumber *)roundNumber;
 
++ (NSNumber *)numberFromString:(NSString *)string;
+
 - (BOOL)isLessThanNumber:(NSNumber *)number;
 
 - (BOOL)isMoreThanNumber:(NSNumber *)number;
