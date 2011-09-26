@@ -15,6 +15,9 @@ And then drag the files into your Xcode project.
 
 ##Available
 
+###NSObject
+* `- (BOOL)isNULL`
+
 ### NSArray
 * `- (id)firstObject`
 * `- (BOOL)isEmpty`

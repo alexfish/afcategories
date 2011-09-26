@@ -11,8 +11,6 @@ build/*
 profile
 
 #Categories Specific
-CategoriesTests/
-CategoriesTests/xcodeproj
 iPad/
 iPhone/
 Categories-Info.plist
