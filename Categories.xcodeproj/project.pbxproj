@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA1891E31431133A00EBB5D5 /* AFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1891E21431133A00EBB5D5 /* AFObject.m */; };
-		FA6FE101144CC4A8005243F0 /* AFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6FE100144CC4A8005243F0 /* AFFileManager.m */; };
+		FA6FE10B144CCB5F005243F0 /* AFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6FE10A144CCB5F005243F0 /* AFFileManager.m */; };
 		FA8AB8ED140D8ECD00568A64 /* AFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB8EC140D8ECD00568A64 /* AFNumber.m */; };
 		FAA2107D13F6BDC0003B4AD4 /* AFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2107C13F6BDC0003B4AD4 /* AFArray.m */; };
 		FAA2108313F6BDE2003B4AD4 /* AFDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2108213F6BDE2003B4AD4 /* AFDictionary.m */; };
@@ -45,8 +45,8 @@
 /* Begin PBXFileReference section */
 		FA1891E11431133A00EBB5D5 /* AFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFObject.h; path = NSObject/AFObject.h; sourceTree = "<group>"; };
 		FA1891E21431133A00EBB5D5 /* AFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFObject.m; path = NSObject/AFObject.m; sourceTree = "<group>"; };
-		FA6FE0FF144CC4A8005243F0 /* AFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFFileManager.h; path = AFFileManager/AFFileManager.h; sourceTree = "<group>"; };
-		FA6FE100144CC4A8005243F0 /* AFFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFFileManager.m; path = AFFileManager/AFFileManager.m; sourceTree = "<group>"; };
+		FA6FE109144CCB5F005243F0 /* AFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFileManager.h; sourceTree = "<group>"; };
+		FA6FE10A144CCB5F005243F0 /* AFFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFileManager.m; sourceTree = "<group>"; };
 		FA8AB8EB140D8ECD00568A64 /* AFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNumber.h; path = NSNumber/AFNumber.h; sourceTree = "<group>"; };
 		FA8AB8EC140D8ECD00568A64 /* AFNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNumber.m; path = NSNumber/AFNumber.m; sourceTree = "<group>"; };
 		FAA2107B13F6BDC0003B4AD4 /* AFArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFArray.h; path = NSArray/AFArray.h; sourceTree = "<group>"; };
@@ -111,13 +111,13 @@
 			name = NSObject;
 			sourceTree = "<group>";
 		};
-		FA6FE103144CC4B0005243F0 /* AFFileManager */ = {
+		FA6FE108144CCB5F005243F0 /* NSFileManager */ = {
 			isa = PBXGroup;
 			children = (
-				FA6FE0FF144CC4A8005243F0 /* AFFileManager.h */,
-				FA6FE100144CC4A8005243F0 /* AFFileManager.m */,
+				FA6FE109144CCB5F005243F0 /* AFFileManager.h */,
+				FA6FE10A144CCB5F005243F0 /* AFFileManager.m */,
 			);
-			name = AFFileManager;
+			path = NSFileManager;
 			sourceTree = "<group>";
 		};
 		FA8AB8EF140D8FE800568A64 /* NSNumber */ = {
@@ -254,7 +254,7 @@
 		FAE6EA5713CF8D0D0096DB22 /* Custom Categories */ = {
 			isa = PBXGroup;
 			children = (
-				FA6FE103144CC4B0005243F0 /* AFFileManager */,
+				FA6FE108144CCB5F005243F0 /* NSFileManager */,
 				FA1891E51431135000EBB5D5 /* NSObject */,
 				FA8AB8EF140D8FE800568A64 /* NSNumber */,
 				FAA2108013F6BDD5003B4AD4 /* NSString */,
@@ -384,7 +384,7 @@
 				FAA2108613F6BDEA003B4AD4 /* AFString.m in Sources */,
 				FA8AB8ED140D8ECD00568A64 /* AFNumber.m in Sources */,
 				FA1891E31431133A00EBB5D5 /* AFObject.m in Sources */,
-				FA6FE101144CC4A8005243F0 /* AFFileManager.m in Sources */,
+				FA6FE10B144CCB5F005243F0 /* AFFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
