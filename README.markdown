@@ -15,7 +15,7 @@ And then drag the files into your Xcode project.
 
 ##Available
 
-###AFFileManager
+###NSFileManager
 
 * `+ (NSString *)libraryPath`
 * `+ (NSString *)documentsPath`
