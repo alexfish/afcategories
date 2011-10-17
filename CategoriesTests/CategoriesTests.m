@@ -12,6 +12,7 @@
 #import "AFString.h"
 #import "AFNumber.h"
 #import "AFObject.h"
+#import "AFFileManager.h"
 
 @implementation CategoriesTests
 
@@ -142,6 +143,46 @@
     
     STAssertFalse([string isNULL],@"null failed");
     STAssertTrue([null isNULL], @"null null failed");
+    
+}
+
+- (void)testLibraryPath {
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+        
+    STAssertEqualObjects([paths objectAtIndex:0], [NSFileManager libraryPath], @"Failed to return library path");
+    
+}
+
+- (void)testDocumentsPath {
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    
+    STAssertEqualObjects([paths objectAtIndex:0], [NSFileManager documentsPath], @"Failed to return documents path");
+    
+}
+
+- (void)testCachesPath {
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+                
+    STAssertEqualObjects([paths objectAtIndex:0], [NSFileManager cachesPath], @"Failed to return caches path");
+    
+}
+
+- (void)testPrefsPath {
+    
+    NSString *path = [NSString stringWithFormat:@"%@/Preferences",[NSFileManager libraryPath]];
+    
+    STAssertEqualObjects(path,[NSFileManager preferencesPath], @"Failed to return prefs path");
+    
+}
+
+- (void)testTmpPath {
+    
+    NSLog(@"%@",[NSFileManager tmpPath]);
+    
+    STAssertEqualObjects([NSFileManager tmpPath], NSTemporaryDirectory(), @"Failed to return temp directory");
     
 }
 

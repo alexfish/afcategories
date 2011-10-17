@@ -15,6 +15,14 @@ And then drag the files into your Xcode project.
 
 ##Available
 
+###AFFileManager
+
+* `+ (NSString *)libraryPath`
+* `+ (NSString *)documentsPath`
+* `+ (NSString *)cachesPath`
+* `+ (NSString *)preferencesPath`
+* `+ (NSString *)tmpPath`
+
 ###NSObject
 * `- (BOOL)isNULL`
 
