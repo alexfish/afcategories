@@ -43,6 +43,7 @@ And then drag the files into your Xcode project.
 ### NSString
 * `- (BOOL)isNotEqualToString:(NSString *)string`
 * `- (BOOL)containsString:(NSString *)string`
+* `- (NSString *)stringBetweenString:(NSString *)start andString:(NSString*)end`
 
 ### NSNumber
 * `- (NSNumber *)floorNumber`

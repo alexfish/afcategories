@@ -14,4 +14,6 @@
 
 - (BOOL)containsString:(NSString *)string;
 
+- (NSString *)stringBetweenString:(NSString *)start andString:(NSString*)end;
+
 @end

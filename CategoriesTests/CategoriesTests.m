@@ -180,9 +180,15 @@
 
 - (void)testTmpPath {
     
-    NSLog(@"%@",[NSFileManager tmpPath]);
-    
     STAssertEqualObjects([NSFileManager tmpPath], NSTemporaryDirectory(), @"Failed to return temp directory");
+    
+}
+
+- (void)testStringBetweenString {
+    
+    NSString *test = @".test.";
+    
+    STAssertEqualObjects([NSString stringWithFormat:@"test"], [test stringBetweenString:@"." andString:@"."], @"Failed to get string between string");
     
 }
 
