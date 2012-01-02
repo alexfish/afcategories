@@ -53,6 +53,9 @@ And then drag the files into your Xcode project.
 * `- (BOOL)isLessThanNumber:(NSNumber *)number`
 * `- (BOOL)isMoreThanNumber:(NSNumber *)number`
 
+### NSURL
+* `- (NSString *)stringValue`
+
 ##License
 
 Copyright (C) 2011 by Alex Fish

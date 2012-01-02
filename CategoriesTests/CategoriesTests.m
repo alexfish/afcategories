@@ -13,6 +13,7 @@
 #import "AFNumber.h"
 #import "AFObject.h"
 #import "AFFileManager.h"
+#import "AFURL.h"
 
 @implementation CategoriesTests
 
@@ -189,6 +190,14 @@
     NSString *test = @".test.";
     
     STAssertEqualObjects([NSString stringWithFormat:@"test"], [test stringBetweenString:@"." andString:@"."], @"Failed to get string between string");
+    
+}
+
+- (void)testURLStringValue {
+    
+    NSURL *url = [NSURL URLWithString:@"www.google.com"];
+    
+    STAssertEqualObjects([NSString stringWithFormat:@"www.google.com"], [url stringValue], @"Failed to create string value of URL");
     
 }
 
