@@ -14,6 +14,7 @@
 #import "AFObject.h"
 #import "AFFileManager.h"
 #import "AFURL.h"
+#import "AFApplication.h"
 
 @implementation CategoriesTests
 
@@ -198,6 +199,13 @@
     NSURL *url = [NSURL URLWithString:@"www.google.com"];
     
     STAssertEqualObjects([NSString stringWithFormat:@"www.google.com"], [url stringValue], @"Failed to create string value of URL");
+    
+}
+
+- (void)testApplicationRotationDuration {
+    
+    float duration = [[UIApplication sharedApplication] orientationRotationDuration];
+    STAssertTrue(duration == 0.3f, @"Rotation duration is incorrect");
     
 }
 

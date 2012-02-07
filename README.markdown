@@ -56,6 +56,9 @@ And then drag the files into your Xcode project.
 ### NSURL
 * `- (NSString *)stringValue`
 
+### UIApplication
+* `- (NSTimeInterval)orientationRotationDuration`
+
 ##License
 
 Copyright (C) 2011 by Alex Fish

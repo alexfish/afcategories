@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA1891E31431133A00EBB5D5 /* AFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1891E21431133A00EBB5D5 /* AFObject.m */; };
+		FA3B12C914E1CB3B00ADD3DD /* AFApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B12C814E1CB3B00ADD3DD /* AFApplication.m */; };
 		FA6FE10B144CCB5F005243F0 /* AFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6FE10A144CCB5F005243F0 /* AFFileManager.m */; };
 		FA8AB8ED140D8ECD00568A64 /* AFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AB8EC140D8ECD00568A64 /* AFNumber.m */; };
 		FAA2107D13F6BDC0003B4AD4 /* AFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2107C13F6BDC0003B4AD4 /* AFArray.m */; };
@@ -46,6 +47,8 @@
 /* Begin PBXFileReference section */
 		FA1891E11431133A00EBB5D5 /* AFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFObject.h; path = NSObject/AFObject.h; sourceTree = "<group>"; };
 		FA1891E21431133A00EBB5D5 /* AFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFObject.m; path = NSObject/AFObject.m; sourceTree = "<group>"; };
+		FA3B12C714E1CB3B00ADD3DD /* AFApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFApplication.h; path = UIApplication/AFApplication.h; sourceTree = "<group>"; };
+		FA3B12C814E1CB3B00ADD3DD /* AFApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFApplication.m; path = UIApplication/AFApplication.m; sourceTree = "<group>"; };
 		FA6FE109144CCB5F005243F0 /* AFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFileManager.h; sourceTree = "<group>"; };
 		FA6FE10A144CCB5F005243F0 /* AFFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFileManager.m; sourceTree = "<group>"; };
 		FA8AB8EB140D8ECD00568A64 /* AFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNumber.h; path = NSNumber/AFNumber.h; sourceTree = "<group>"; };
@@ -110,8 +113,19 @@
 		FA1891E51431135000EBB5D5 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				FA1891E11431133A00EBB5D5 /* AFObject.h */,
+				FA1891E21431133A00EBB5D5 /* AFObject.m */,
 			);
 			name = NSObject;
+			sourceTree = "<group>";
+		};
+		FA3B12CB14E1CB4A00ADD3DD /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B12C714E1CB3B00ADD3DD /* AFApplication.h */,
+				FA3B12C814E1CB3B00ADD3DD /* AFApplication.m */,
+			);
+			name = UIApplication;
 			sourceTree = "<group>";
 		};
 		FA6FE108144CCB5F005243F0 /* NSFileManager */ = {
@@ -266,6 +280,7 @@
 		FAE6EA5713CF8D0D0096DB22 /* Custom Categories */ = {
 			isa = PBXGroup;
 			children = (
+				FA3B12CB14E1CB4A00ADD3DD /* UIApplication */,
 				FAC54E4D14B2560F00578D41 /* NSURL */,
 				FA6FE108144CCB5F005243F0 /* NSFileManager */,
 				FA1891E51431135000EBB5D5 /* NSObject */,
@@ -273,8 +288,6 @@
 				FAA2108013F6BDD5003B4AD4 /* NSString */,
 				FAA2107F13F6BDCF003B4AD4 /* NSDictionary */,
 				FAA2107E13F6BDC5003B4AD4 /* NSArray */,
-				FA1891E11431133A00EBB5D5 /* AFObject.h */,
-				FA1891E21431133A00EBB5D5 /* AFObject.m */,
 			);
 			name = "Custom Categories";
 			sourceTree = "<group>";
@@ -399,6 +412,7 @@
 				FA1891E31431133A00EBB5D5 /* AFObject.m in Sources */,
 				FA6FE10B144CCB5F005243F0 /* AFFileManager.m in Sources */,
 				FAC54E4B14B2560500578D41 /* AFURL.m in Sources */,
+				FA3B12C914E1CB3B00ADD3DD /* AFApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
